@@ -1,0 +1,10 @@
+//for clearer, faster cloglas in modules, use imports
+var wartime = ture;
+var ARMORY = (function(){
+    return{
+    	if (war){
+
+    	},
+    };
+//pass all your globals into your IIFE using the calling parentheses
+})(wartime);

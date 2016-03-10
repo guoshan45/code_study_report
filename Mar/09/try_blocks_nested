@@ -1,0 +1,12 @@
+function changeInnerHTMLByIdOrExisting(id, update, exixting) {
+	try {
+		var newElement = undefined;
+		document.getElementById(id).innerHTML = update;
+	} catch (error)
+	try {
+		var elements = document.getElementsByTagName('*');
+			...
+	} catch (error2) {
+			...
+	}
+}
